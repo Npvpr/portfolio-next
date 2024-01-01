@@ -2,9 +2,9 @@ import Project from "@/components/Project";
 
 export default function ProjectsFlexbox({ projects }) {
   return (
-    <div className="flex gap-10 m-10">
+    <div className="m-10 flex gap-10">
       {projects.map((project) => {
-        return <Project project={project} />;
+        return <Project project={project} key={project.title} />;
       })}
     </div>
   );
