@@ -24,17 +24,13 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+body {
+  font-family: sans-serif; 
+  color: hsl(0, 0%, 90%); 
+  background-color: #1a1514; 
+  display: flex; 
+  justify-content: center; 
+  margin: 30px 30px;
 } */
-
-body{
-  font-family: sans-serif;
-  color: hsl(0, 0%, 90%);
-  background-color: hsl(200, 100%, 20%);
-  display: flex;
-  justify-content: center;
-  margin: 50px 30px;
-}
-
-.testclass{
-  background-color: green;
-}
