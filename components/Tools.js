@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Tools() {
   return (
     <div>
@@ -25,12 +27,18 @@ export default function Tools() {
         </ul>
       </div>
       <div className="flex justify-around gap-10 lg:mr-20">
-        <button className=" flex-1 rounded-xl bg-neutral-400 px-6 py-2 text-black hover:bg-neutral-200">
-          Projects
-        </button>
-        <button className=" flex-1 rounded-xl bg-neutral-400 px-6 py-2 text-black hover:bg-neutral-200">
-          Resume
-        </button>
+        <Link
+          href={"/projects"}
+          className=" flex flex-1 justify-center rounded-xl bg-neutral-400 px-6 py-2 text-black hover:bg-neutral-200"
+        >
+          <div>Projects</div>
+        </Link>
+        <Link
+          href={""}
+          className=" flex flex-1 justify-center rounded-xl bg-neutral-400 px-6 py-2 text-black hover:bg-neutral-200"
+        >
+          <div>Resume</div>
+        </Link>
       </div>
     </div>
   );
