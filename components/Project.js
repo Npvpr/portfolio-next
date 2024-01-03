@@ -4,7 +4,7 @@ export default function Project({ project }) {
   return (
     <div className=" max-w-xl rounded-2xl border border-solid border-black bg-gray-400">
       {/* <div className="flex h-40 items-center justify-center rounded-t-xl bg-black"> */}
-      <img className="h-auto w-full " src={project.image} />
+      <img className="h-auto w-full rounded-t-xl" src={project.image} />
       {/* </div> */}
       <div className=" mx-3 flex flex-col justify-around rounded-b-2xl">
         <div className="mb-2 text-xl font-bold">{project.title}</div>
