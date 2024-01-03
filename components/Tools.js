@@ -34,7 +34,7 @@ export default function Tools() {
           <div>Projects</div>
         </Link>
         <Link
-          href={""}
+          href={"/static/resume.pdf"}
           className=" flex flex-1 justify-center rounded-xl bg-neutral-400 px-6 py-2 text-black hover:bg-neutral-200"
         >
           <div>Resume</div>
