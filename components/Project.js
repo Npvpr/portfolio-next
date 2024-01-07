@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Project({ project }) {
   return (
-    <div className=" max-w-xl rounded-2xl border border-solid border-black bg-gray-400">
+    <div className=" max-w-3xl rounded-2xl border border-solid border-black bg-gray-400 text-zinc-900">
       {/* <div className="flex h-40 items-center justify-center rounded-t-xl bg-black"> */}
       <img className="h-auto w-full rounded-t-xl" src={project.image} />
       {/* </div> */}

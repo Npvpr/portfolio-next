@@ -26,16 +26,22 @@ export default function Tools() {
           <li>Ubuntu</li>
         </ul>
       </div>
-      <div className="flex justify-around gap-10 lg:mr-20">
+      <div className="flex justify-around gap-2 md:gap-10 lg:mr-20">
         <Link
           href={"/projects"}
-          className=" flex flex-1 justify-center rounded-xl bg-neutral-400 px-6 py-2 text-black hover:bg-neutral-200"
+          className=" flex flex-1 justify-center rounded-xl bg-neutral-400 px-4 py-2 text-black hover:bg-neutral-200 md:px-6 md:py-2"
         >
           <div>Projects</div>
         </Link>
         <Link
+          href={"/certificates"}
+          className=" flex flex-1 justify-center rounded-xl bg-neutral-400 px-4 py-2 text-black hover:bg-neutral-200 md:px-6 md:py-2"
+        >
+          <div>Certificates</div>
+        </Link>
+        <Link
           href={"/static/resume.pdf"}
-          className=" flex flex-1 justify-center rounded-xl bg-neutral-400 px-6 py-2 text-black hover:bg-neutral-200"
+          className=" flex flex-1 justify-center rounded-xl bg-neutral-400 px-4 py-2 text-black hover:bg-neutral-200 md:px-6 md:py-2"
         >
           <div>Resume</div>
         </Link>
